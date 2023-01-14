@@ -16,15 +16,18 @@ target/release/simple-calculator first_value operator second_value
 ```
 
 There are 4 operators. They are:
-```
- "Operation"      =  "Character"
- Addition         =   '+'
- Subtract         =   '-'
- multiplication   =   '×', 'X'
- Division         =   '/'
-```
+
+|Operation|Character|
+|:---:|:---:|
+|Addition |**`+`**|
+|Subtract |**`-`**|
+|multiplication|**`×`** or **`X`**|
+|Division |**`/`**|
+
+
+
 
 For multiplying 12 by 5.5 you can use 
 ```sh
-target/release/simple-calculator 12 x 5
+target/release/simple-calculator 12 x 5.5
 ```
